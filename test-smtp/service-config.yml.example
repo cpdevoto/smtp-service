@@ -1,0 +1,21 @@
+# the SMTP username
+username: username
+
+# the SMTP password
+password: password
+
+# the SMTP host
+# host: proxy.pc.res0.local
+host: email-smtp.us-east-1.amazonaws.com
+
+# the SMTP port
+port: 25
+
+# the default sender's email address
+sender: notifications@resolutebi.com
+
+
+starttlsEnabled: true
+starttlsRequired: true
+transport: smtps
+useAuth: true
